@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/RegistrationFragmentOne">
+
+    <fragment
+        android:id="@+id/RegistrationFragmentOne"
+        android:name="com.libraryleap.partner.activity.registeractivity.fargment.RegistrationFragmentOne"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_registration_one">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/RegistrationFragmentTwo" />
+    </fragment>
+    <fragment
+        android:id="@+id/RegistrationFragmentTwo"
+        android:name="com.libraryleap.partner.activity.registeractivity.fargment.RegistrationFragmentTwo"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_registration_two">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/RegistrationFragmentOne" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/RegistrationFragmentThree"
+        android:name="com.libraryleap.partner.activity.registeractivity.fargment.RegistrationFragmentThree"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_registration_three">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/RegistrationFragmentThree" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/RegistrationFragmentFour"
+        android:name="com.libraryleap.partner.activity.registeractivity.fargment.RegistrationFragmentFour"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_registration_four">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/RegistrationFragmentFour" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/RegistrationFragmentUnderreview"
+        android:name="com.libraryleap.partner.activity.registeractivity.fargment.RegistrationFragmentUnderReview"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_registration_under_review">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/RegistrationFragmentUnderreview" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/RegistrationFragmentCongratulation"
+        android:name="com.libraryleap.partner.activity.registeractivity.fargment.RegistrationFragmentCongratulation"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_registration_congrats">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/RegistrationFragmentCongratulation" />
+    </fragment>
+
+
+
+
+</navigation>

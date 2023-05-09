@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/today_attendance_back"
+            android:layout_height="200dp">
+
+            <!--
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:src="@drawable/today_attendance_back"
+                            android:layout_height="match_parent">
+
+                        </ImageView>
+            -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/poppinssemibold"
+                android:lines="2"
+                android:text="My \nLibrary"
+                android:textColor="@color/white"
+                android:textSize="18sp">
+
+            </TextView>
+
+
+
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="match_parent">
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="center_vertical"
+                            android:layout_gravity="center_vertical"
+                            android:layout_height="wrap_content">
+                            <ImageView
+                                android:layout_width="18dp"
+                                android:src="@drawable/lib_name"
+                                android:layout_height="18dp">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:text="Library Name"
+                                android:textSize="15sp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:fontFamily="@font/poppinssemibold"
+                                android:layout_marginLeft="10dp"
+                                android:layout_height="wrap_content">
+
+                            </TextView>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:paddingLeft="10dp"
+                            android:textSize="15sp"
+                            android:fontFamily="@font/poppinsregular"
+                            android:text="Ferdowsi University of Mashhad"
+                            android:layout_height="wrap_content">
+
+                        </TextView>
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/view"
+                            android:layout_marginRight="10dp"
+                            android:layout_height="1dp">
+
+                        </ImageView>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="center_vertical"
+                            android:layout_gravity="center_vertical"
+                            android:layout_height="wrap_content">
+                            <ImageView
+                                android:layout_width="18dp"
+                                android:src="@drawable/email"
+                                android:layout_height="18dp">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:text="Email Id"
+                                android:textSize="15sp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:fontFamily="@font/poppinssemibold"
+                                android:layout_marginLeft="10dp"
+                                android:layout_height="wrap_content">
+
+                            </TextView>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:paddingLeft="10dp"
+                            android:textSize="15sp"
+                            android:fontFamily="@font/poppinsregular"
+                            android:text="lalit@gmail.com"
+                            android:layout_height="wrap_content">
+
+                        </TextView>
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/view"
+                            android:layout_marginRight="10dp"
+                            android:layout_height="1dp">
+
+                        </ImageView>
+
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="center_vertical"
+                            android:layout_gravity="center_vertical"
+                            android:layout_height="wrap_content">
+                            <ImageView
+                                android:layout_width="18dp"
+                                android:src="@drawable/phone_no"
+                                android:layout_height="18dp">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:text="Phone No"
+                                android:textSize="15sp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:fontFamily="@font/poppinssemibold"
+                                android:layout_marginLeft="10dp"
+                                android:layout_height="wrap_content">
+
+                            </TextView>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:paddingLeft="10dp"
+                            android:textSize="15sp"
+                            android:fontFamily="@font/poppinsregular"
+                            android:text="+1 702-229-6011"
+                            android:layout_height="wrap_content">
+
+                        </TextView>
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/view"
+                            android:layout_marginRight="10dp"
+                            android:layout_height="1dp">
+
+                        </ImageView>
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="center_vertical"
+                            android:layout_gravity="center_vertical"
+                            android:layout_height="wrap_content">
+                            <ImageView
+                                android:layout_width="18dp"
+                                android:src="@drawable/person"
+                                android:layout_height="18dp">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:text="Owner Name"
+                                android:textSize="15sp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:fontFamily="@font/poppinsregular"
+                                android:layout_marginLeft="10dp"
+                                android:layout_height="wrap_content">
+
+                            </TextView>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:paddingLeft="10dp"
+                            android:textSize="15sp"
+                            android:fontFamily="@font/poppinssemibold"
+                            android:text="Lalit Mohan"
+                            android:layout_height="wrap_content">
+
+                        </TextView>
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/view"
+                            android:layout_marginRight="10dp"
+                            android:layout_height="1dp">
+
+                        </ImageView>
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="center_vertical"
+                            android:layout_gravity="center_vertical"
+                            android:layout_height="wrap_content">
+                            <ImageView
+                                android:layout_width="18dp"
+                                android:src="@drawable/address"
+                                android:layout_height="18dp">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:text="Address"
+                                android:textSize="15sp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:fontFamily="@font/poppinssemibold"
+                                android:layout_marginLeft="10dp"
+                                android:layout_height="wrap_content">
+
+                            </TextView>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:paddingLeft="10dp"
+                            android:textSize="15sp"
+                            android:fontFamily="@font/poppinsregular"
+                            android:text="495 S Main St, Las Vegas, NV 89101"
+                            android:layout_height="wrap_content">
+
+                        </TextView>
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/view"
+                            android:layout_marginRight="10dp"
+                            android:layout_height="1dp">
+
+                        </ImageView>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="center_vertical"
+                            android:layout_gravity="center_vertical"
+                            android:layout_height="wrap_content">
+                            <ImageView
+                                android:layout_width="18dp"
+                                android:src="@drawable/document"
+                                android:layout_height="18dp">
+
+                            </ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:text="Document"
+                                android:textSize="15sp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:fontFamily="@font/poppinssemibold"
+                                android:layout_marginLeft="10dp"
+                                android:layout_height="wrap_content">
+
+                            </TextView>
+
+                        </LinearLayout>
+
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="10dp"
+                            android:layout_height="110dp">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:src="@drawable/adhar_document"
+                                android:layout_height="match_parent">
+
+                            </ImageView>
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:src="@drawable/pan_document"
+                                android:layout_height="match_parent">
+
+                            </ImageView>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+
+
+                </LinearLayout>
+
+
+
+            </androidx.core.widget.NestedScrollView>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:id="@+id/root"
+    tools:context=".activity.mainactivity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        
+        <LinearLayout
+            android:layout_width="334dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@drawable/back_popup_rectangle"
+            android:layout_height="289dp">
+
+            <ImageView
+                android:layout_width="110dp"
+                android:src="@drawable/green_tick"
+                android:layout_gravity="center"
+                android:layout_height="110dp">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="226dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppinsregular"
+                android:gravity="center"
+                android:text="Your email and phone number have been verified"
+                android:textColor="#666363"
+                android:textSize="13sp" />
+            <TextView
+                android:id="@+id/next"
+                android:layout_width="182dp"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/background_circle_theme_color"
+                android:gravity="center"
+                android:text="Done"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

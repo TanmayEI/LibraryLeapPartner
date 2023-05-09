@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.libraryleap.partner">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/app_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LibraryLeapPartner">
+        <activity
+            android:name=".activity.SplashActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.LibraryLeapPartner.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.mainactivity.MainActivity" />
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".activity.registeractivity.RegistrationActivity" />
+        <activity android:name=".fragment.homefragment.activity.TodayAttendanceActivity" />
+        <activity android:name=".fragment.homefragment.activity.AttendanceManagementActivity" />
+        <activity android:name=".activity.notificationactivity.NotificationActivity" />
+        <activity android:name=".fragment.studentfragment.activity.MonthlyAttendanceDetailsActivity" />
+        <activity android:name=".fragment.studentfragment.activity.AddNewStudentActivity" />
+        <activity android:name=".fragment.homefragment.activity.StudentRegistrationActivity" />
+        <activity android:name=".fragment.homefragment.activity.EnquiryManagementActivity" />
+        <activity android:name=".activity.bookingactivity.BookingManagementActivity" />
+        <activity android:name=".activity.paymentactivity.PaymentManagementActivity" />
+        <activity android:name=".activity.forgotactivity.ForgotPasswordActivity" />
+        <activity android:name=".activity.forgotactivity.VerificationCodeActivity" />
+        <activity android:name=".activity.forgotactivity.CreateNewPasswordActivity" />
+    </application>
+
+</manifest>

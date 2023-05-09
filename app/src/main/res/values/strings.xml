@@ -1,0 +1,62 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">LibraryLeapPartner</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+    //loginactivity
+    <string name="library_id">Library ID/Phone No</string>
+    <string name="Password">Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="login">Login</string>
+    <string name="dont_have_account" tools:ignore="MissingTranslation">Don’t have an account?  <font color='#1D4B7E'>Register Now</font></string>
+
+
+    //registration
+    <string name="register_now">Register Now</string>
+    <string name="register_message">Plaese fill the details and create account</string>
+    <string name="nexts">Next</string>
+    <string name="lib_name">Library Name</string>
+    <string name="email">Email</string>
+    <string name="phone_no">Phone No</string>
+    <string name="payment_now">Payment Now</string>
+    <string name="dont_have_refral_code">Don’t have referral code pay now</string>
+    <string name="address">Address</string>
+    <string name="refral_code">Referral Code</string>
+    <string name="owner_name">Owner name</string>
+    <string name="pan_card">Pan Card(Upload)</string>
+    <string name="adhar_code">Aadhar Card(Upload)</string>
+    <string name="confirm_pass">Confirm Password</string>
+    <string name="payment">Payment</string>
+    <string name="please_wait">Please Wait</string>
+    <string name="under_review">Your application is under review</string>
+    <string name="congrats">Congratulations</string>
+    <string name="now_resgitered">Now you are registered</string>
+    <string name="start_now">Start Now</string>
+
+    <string name="renuable_price" tools:ignore="MissingTranslation">999\n<font color='#878282'>for 3 Month</font></string>
+
+
+    //Forgot Password
+    <string name="mob_verif_content">Please enter your mobile number to verfiy your account</string>
+    <string name="phone_nos">Enter Phone Number</string>
+    <string name="verification_code">Please type the vefification code send to +65****8910</string>
+
+    //Create New Password
+    <string name="create_new_pass">Create New Password</string>
+    <string name="create_new_message">Your new password must be different from previous used passwords.</string>
+    <string name="must_be">Must be at least 8 characters.</string>
+    <string name="both_password">Both password must match.</string>
+    <string name="create_new_pass_content">Your new password must be different from previous used passwords.</string>
+    <string name="enter_password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="reset_pass">Reset Password</string>
+
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.libraryleap.partner.fragment.homefragment.HomeFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.libraryleap.partner.fragment.membershipfragment.MembershipFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_membership">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/StudentFragment"
+        android:name="com.libraryleap.partner.fragment.studentfragment.StudentFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_student">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/MyLibraryFragment"
+        android:name="com.libraryleap.partner.fragment.mylibraryfragment.MyLibraryFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_my_library">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+
+
+
+
+    <fragment
+        android:id="@+id/RegistrationFragmentTwo"
+        android:name="com.libraryleap.partner.activity.registeractivity.fargment.RegistrationFragmentTwo"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_registration_two">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/RegistrationFragmentOne"
+        android:name="com.libraryleap.partner.activity.registeractivity.fargment.RegistrationFragmentOne"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_registration_one">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+
+
+</navigation>

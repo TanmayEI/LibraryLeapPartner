@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:id="@+id/root"
+    android:background="@drawable/background_registration_image"
+    tools:context=".activity.mainactivity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@color/purple_700"
+            android:layout_height="50dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/profile_today_enquiry"
+                    android:layout_height="35dp">
+
+                </ImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/poppinssemibold"
+                    android:lines="2"
+                    android:text="Akshay Ruhal"
+                    android:textColor="@color/white"
+                    android:textSize="18sp">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="24dp"
+                android:src="@drawable/back_arrow"
+                android:layout_margin="10dp"
+                android:layout_height="24dp">
+
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_alignParentRight="true"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:src="@drawable/search"
+                    android:layout_margin="10dp"
+                    android:layout_centerVertical="true"
+                    android:layout_height="24dp">
+
+                </ImageView>
+
+
+
+
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:background="@drawable/back_heading"
+            android:layout_height="45dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:text="#"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:layout_height="match_parent">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.8"
+                android:text="Date"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:layout_height="match_parent">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="In Time"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:layout_height="match_parent">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Out Time"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:layout_height="match_parent">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Book Time"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:layout_height="match_parent">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/today_attendance"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

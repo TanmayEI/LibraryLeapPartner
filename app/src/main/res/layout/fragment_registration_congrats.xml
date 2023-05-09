@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:id="@+id/root"
+    tools:context=".activity.mainactivity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+
+
+
+                <ImageView
+                    android:layout_width="330dp"
+                    android:src="@drawable/congrats"
+                    android:paddingHorizontal="20dp"
+                    android:layout_gravity="center"
+                    android:layout_height="225dp">
+
+                </ImageView>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_height="match_parent">
+
+
+
+
+
+
+
+
+
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginBottom="20dp"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/tv_person_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/poppinssemibold"
+                            android:text="@string/congrats"
+                            android:textColor="@color/black"
+                            android:textSize="27sp" />
+
+                        <TextView
+                            android:id="@+id/under_review"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tv_person_name"
+                            android:layout_centerHorizontal="true"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/poppinsregular"
+                            android:text="@string/now_resgitered"
+                            android:textColor="#666363"
+                            android:textSize="13sp" />
+
+
+                        <TextView
+                            android:id="@+id/start_now"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_gravity="bottom"
+                            android:layout_below="@id/under_review"
+                            android:layout_marginTop="40dp"
+                            android:background="@drawable/background_circle_theme_color"
+                            android:gravity="center"
+                            android:text="@string/start_now"
+                            android:textColor="#FFFFFF"
+                            android:textSize="18sp">
+
+                        </TextView>
+
+
+                    </RelativeLayout>
+
+
+
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

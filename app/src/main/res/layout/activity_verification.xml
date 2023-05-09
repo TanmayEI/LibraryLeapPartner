@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:id="@+id/root"
+    android:background="@drawable/background_registration_image"
+    tools:context=".activity.mainactivity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:background="@drawable/back_curve"
+                    android:layout_height="200dp">
+
+                    <ImageView
+                        android:id="@+id/back"
+                        android:layout_width="24dp"
+                        android:src="@drawable/back_arrow"
+                        android:layout_margin="10dp"
+                        android:layout_height="24dp">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Verfication code"
+                        android:textColor="@color/white"
+                        android:layout_margin="10dp"
+                        android:textSize="22sp"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="210dp"
+                        android:text="@string/verification_code"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_height="match_parent">
+
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_height="wrap_content">
+
+                        <com.chaos.view.PinView
+                            android:id="@+id/pin_confirm"
+                            style="@style/PinWidget.PinView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:inputType="numberPassword"
+                            android:itemBackground="@color/white"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/black"
+                            android:textSize="20sp"
+                            app:cursorWidth="2dp"
+                            app:itemCount="4"
+                            app:itemHeight="50dp"
+                            app:itemRadius="4dp"
+                            app:itemSpacing="20dp"
+                            app:itemWidth="51dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:lineColor="@color/teal_700"
+                            app:lineWidth="2dp"
+                            app:viewType="rectangle" />
+
+
+
+                    </RelativeLayout>
+
+
+
+
+
+
+                    <TextView
+                        android:id="@+id/verify_now"
+                        android:layout_width="203dp"
+                        android:src="@drawable/arrow_right"
+                        android:layout_gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:padding="10dp"
+                        android:text="Verify Now"
+                        android:layout_marginTop="40dp"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:background="@drawable/back_blue_large"
+                        android:layout_height="50dp">
+
+                    </TextView>
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+

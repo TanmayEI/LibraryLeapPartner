@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:id="@+id/root"
+    tools:context=".activity.mainactivity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:src="@drawable/reg_three"
+                    android:paddingHorizontal="20dp"
+                    android:layout_height="80dp">
+
+                </ImageView>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_height="match_parent">
+
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:background="@drawable/back_rounded_image"
+                        android:layout_height="60dp">
+
+                        <EditText
+                            android:id="@+id/login_email"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_toLeftOf="@+id/tv_person_image"
+                            android:background="@null"
+                            android:fontFamily="@font/poppinsregular"
+                            android:hint="@string/pan_card"
+                            android:paddingLeft="20dp"
+                            android:singleLine="true"
+                            android:textColor="#4C4D4F"
+                            android:textSize="15sp">
+
+                        </EditText>
+
+                        <ImageView
+                            android:id="@+id/tv_person_image"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="17dp"
+                            android:layout_marginTop="17dp"
+                            android:layout_marginEnd="17dp"
+                            android:layout_marginBottom="17dp"
+                            android:src="@drawable/attachment" />
+
+
+                    </RelativeLayout>
+
+
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/back_rounded_image"
+                        android:layout_height="60dp">
+
+                        <EditText
+                            android:id="@+id/login_password"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@null"
+                            android:fontFamily="@font/poppinsregular"
+                            android:hint="@string/adhar_code"
+                            android:inputType="textPassword"
+                            android:paddingLeft="20dp"
+                            android:singleLine="true"
+                            android:textColor="#4C4D4F"
+                            android:textSize="15sp">
+
+                        </EditText>
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="17dp"
+                            android:layout_marginTop="17dp"
+                            android:layout_marginEnd="17dp"
+                            android:layout_marginBottom="17dp"
+                            android:src="@drawable/attachment" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/back_rounded_image"
+                        android:layout_height="60dp">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@null"
+                            android:fontFamily="@font/poppinsregular"
+                            android:hint="@string/Password"
+                            android:inputType="textPassword"
+                            android:paddingLeft="20dp"
+                            android:singleLine="true"
+                            android:textColor="#4C4D4F"
+                            android:textSize="15sp">
+
+                        </EditText>
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="17dp"
+                            android:layout_marginTop="17dp"
+                            android:layout_marginEnd="17dp"
+                            android:layout_marginBottom="17dp"
+                            android:src="@drawable/eye_off" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/back_rounded_image"
+                        android:layout_height="60dp">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@null"
+                            android:fontFamily="@font/poppinsregular"
+                            android:hint="@string/confirm_pass"
+                            android:inputType="textPassword"
+                            android:paddingLeft="20dp"
+                            android:singleLine="true"
+                            android:textColor="#4C4D4F"
+                            android:textSize="15sp">
+
+                        </EditText>
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="17dp"
+                            android:layout_marginTop="17dp"
+                            android:layout_marginEnd="17dp"
+                            android:layout_marginBottom="17dp"
+                            android:src="@drawable/eye_off" />
+
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/next"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_gravity="bottom"
+                            android:layout_marginTop="40dp"
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/background_circle_theme_color"
+                            android:gravity="center"
+                            android:text="@string/nexts"
+                            android:textColor="#FFFFFF"
+                            android:textSize="18sp">
+
+                        </TextView>
+
+
+                    </RelativeLayout>
+
+
+
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

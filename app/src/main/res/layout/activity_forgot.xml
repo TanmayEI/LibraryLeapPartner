@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:id="@+id/root"
+    android:background="@drawable/background_registration_image"
+    tools:context=".activity.mainactivity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:background="@drawable/back_curve"
+                    android:layout_height="200dp">
+
+                    <ImageView
+                        android:id="@+id/back"
+                        android:layout_width="24dp"
+                        android:src="@drawable/back_arrow"
+                        android:layout_margin="10dp"
+                        android:layout_height="24dp">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Mobile Verification"
+                        android:textColor="@color/white"
+                        android:layout_margin="10dp"
+                        android:textSize="22sp"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="210dp"
+                        android:text="@string/mob_verif_content"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_height="match_parent">
+
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:background="@drawable/back_rounded_image"
+                        android:layout_height="60dp">
+
+                        <EditText
+                            android:id="@+id/login_email"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:fontFamily="@font/poppinsregular"
+                            android:hint="@string/phone_nos"
+                            android:paddingLeft="20dp"
+                            android:singleLine="true"
+                            android:inputType="number"
+                            android:maxLength="10"
+                            android:textColor="#4C4D4F"
+                            android:textSize="15sp">
+
+                        </EditText>
+
+
+
+                    </RelativeLayout>
+
+
+
+
+
+
+                    <ImageView
+                        android:id="@+id/next"
+                        android:layout_width="103dp"
+                        android:src="@drawable/arrow_right"
+                        android:layout_gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:padding="10dp"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:background="@drawable/back_rounded_forward"
+                        android:layout_height="50dp">
+
+                    </ImageView>
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+

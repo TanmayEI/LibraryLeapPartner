@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="196dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/back_popup_rectangle"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+
+        android:layout_height="196dp">
+
+        <LinearLayout
+            android:id="@+id/ll_home"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:layout_marginHorizontal="10dp"
+
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="55dp"
+                android:gravity="center"
+                android:background="@drawable/profile_today_enquiry"
+                android:layout_height="55dp">
+
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Akshay Ruhal"
+                    android:textSize="14sp"
+                    android:textColor="@color/purple_700"
+                    android:fontFamily="@font/poppinssemibold"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:src="@drawable/loc"
+                        android:layout_height="15dp">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Las Vegas Strip, NV, USA"
+                        android:fontFamily="@font/poppinsregular"
+                        android:textColor="#787474"
+                        android:textSize="11sp"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="125dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:textSize="11sp"
+                    android:text="Expirens in 2 days"
+                    android:background="@drawable/back_circle_blue"
+                    android:layout_height="27dp">
+
+                </TextView>
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:background="#D7D6D6"
+            android:layout_height="1dp">
+
+        </View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="wrap_content"
+                    android:text=""
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/purple_700"
+                    android:fontFamily="@font/poppinssemibold"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Reminder"
+                    android:gravity="center"
+                    android:textSize="14sp"
+                    android:textColor="@color/white"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/green_circle"
+                    android:layout_height="35dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="14sp"
+                    android:text="Revenew"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/blue_circle"
+                    android:layout_height="35dp">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
